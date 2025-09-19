@@ -1,5 +1,5 @@
 import React, { useContext, useState, useRef, useEffect } from 'react';
-import { CartContext } from './CartContext.js'; // Import the context
+import { CartContext } from './CartContext.jsx'; // Import the context
 
 function ShoppingCart() {
   const { cartTotal, setCartTotal } = useContext(CartContext);

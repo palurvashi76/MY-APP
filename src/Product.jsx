@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { CartContext } from './CartContext.js'; // <-- Corrected import path
+import { CartContext } from './CartContext.jsx'; // <-- Corrected import path
 
 function Product({ id, name, price, initialStock }) {
   const [stock, setStock] = useState(initialStock);
